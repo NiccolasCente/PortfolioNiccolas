@@ -131,14 +131,4 @@ button:hover{
 .contato:hover{top:-4px;box-shadow:0 4px 4px #2ecc71;
    transition: all .2s ease-in-out}
 
-   @media screen and (max-width:400px){
-    body{
-        margin-right: 1em;
-    }
-
-    .container-text{
-        margin-right: 1em;
-        
-    }
-   }
-    
+  
