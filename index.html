@@ -65,6 +65,23 @@
                  window.location.href = "sobremim.html";
                  }
                 </script>
+                         
+               <button class="btn" onclick="downloadPDF()">Baixe meu currículo em PDF</button>
+
+               <script>
+                function downloadPDF() {
+                  // Caminho para o arquivo PDF
+                  var fileURL = 'Niccolas Cente Curriculo.pdf';
+                  
+                  var link = document.createElement('a');
+                  link.href = fileURL;
+                  
+                  link.download = 'Niccolas Cente Curriculo.pdf';
+                  
+                  link.click();
+                }
+                </script>
+
 
             </div>
         </div>
