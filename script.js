@@ -1,3 +1,7 @@
+$html.classList.remove('no-js');    
+
+$html.classList.add('js');
+
 
 var typed = new typed("span",{
     strings:["Niccolas Cente.","web Developer."],
